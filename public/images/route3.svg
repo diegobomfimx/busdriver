@@ -1,0 +1,8 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="300" fill="#e74c3c" />
+  <text x="300" y="150" font-family="Arial" font-size="30" text-anchor="middle" fill="white">Scenic Route</text>
+  <path d="M100,180 C200,120 300,240 400,180 S500,220 600,180" stroke="white" stroke-width="4" stroke-dasharray="10,5" />
+  <circle cx="100" cy="180" r="15" fill="white" />
+  <circle cx="500" cy="180" r="15" fill="white" />
+  <polygon points="450,170 450,190 480,180" fill="white" />
+</svg>

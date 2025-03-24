@@ -1,0 +1,8 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="300" fill="#9b59b6" />
+  <text x="300" y="80" font-family="Arial" font-size="30" text-anchor="middle" fill="white">Executive Bus</text>
+  <rect x="100" y="120" width="400" height="130" rx="20" fill="#7d3c98" />
+  <rect x="120" y="150" width="360" height="60" rx="10" fill="#d2b4de" />
+  <circle cx="150" cy="250" r="20" fill="#1a1a1a" />
+  <circle cx="450" cy="250" r="20" fill="#1a1a1a" />
+</svg>
