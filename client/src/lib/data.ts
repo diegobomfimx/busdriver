@@ -64,13 +64,12 @@ export const images = {
   busTypes: [
     "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
     "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
-    "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
-    "https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
+    "/images/bus3.svg",
   ],
   specialOffers: [
-    "https://images.unsplash.com/photo-1575461204203-0e577b91ca19?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=350",
-    "https://images.unsplash.com/photo-1533134051287-f3d552c3c3b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=350",
-    "https://images.unsplash.com/photo-1665686310429-ee43624978fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400",
+    "/images/special1.svg",
+    "/images/special2.svg",
+    "/images/special3.svg",
   ],
   travel: [
     "https://images.unsplash.com/photo-1512428813834-c702c7702b78?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=600",
@@ -191,6 +190,15 @@ export const specialOffers: SpecialOffer[] = [
     image: images.specialOffers[1],
     label: "Promoção Relâmpago",
     ctaText: "Reserve Agora",
+    ctaLink: "#"
+  },
+  {
+    id: 3,
+    title: "Programa de Fidelidade",
+    description: "Cadastre-se grátis e ganhe pontos em cada viagem para trocar por descontos e benefícios exclusivos.",
+    image: images.specialOffers[2],
+    label: "Sempre Disponível",
+    ctaText: "Cadastre-se",
     ctaLink: "#"
   }
 ];
