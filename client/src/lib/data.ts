@@ -51,29 +51,29 @@ export interface SpecialOffer {
   ctaLink: string;
 }
 
-// Local SVG images for routes, bus types, and special offers
+// Mock images are using Unsplash to avoid any copyright issues
 export const images = {
   routes: [
-    "/images/route1.svg",
-    "/images/route2.svg",
-    "/images/route3.svg",
-    "/images/route1.svg",
-    "/images/route2.svg",
-    "/images/route3.svg",
+    "https://images.unsplash.com/photo-1543872084-c7bd3822856f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
+    "https://images.unsplash.com/photo-1507124484497-b7f446e65519?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
+    "https://images.unsplash.com/photo-1631212216921-56570e4c5402?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
+    "https://images.unsplash.com/photo-1697376237512-7fda02e2949a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
+    "https://images.unsplash.com/photo-1683009427500-71a01fa6ea6d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
+    "https://images.unsplash.com/photo-1553830295-4ba85ce82171?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
   ],
   busTypes: [
-    "/images/bus1.svg",
-    "/images/bus2.svg",
-    "/images/bus3.svg",
-    "/images/bus1.svg",
+    "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
+    "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
+    "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
+    "https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=300",
   ],
   specialOffers: [
-    "/images/special1.svg",
-    "/images/special2.svg",
-    "/images/special3.svg",
+    "https://images.unsplash.com/photo-1575461204203-0e577b91ca19?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=350",
+    "https://images.unsplash.com/photo-1533134051287-f3d552c3c3b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=350",
+    "https://images.unsplash.com/photo-1665686310429-ee43624978fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400",
   ],
   travel: [
-    "/images/travel.svg",
+    "https://images.unsplash.com/photo-1512428813834-c702c7702b78?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=600",
   ]
 };
 

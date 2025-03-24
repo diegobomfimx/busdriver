@@ -1,9 +1,0 @@
-<svg width="600" height="350" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="350" fill="#e74c3c" />
-  <text x="300" y="160" font-family="Arial" font-size="40" text-anchor="middle" fill="white">SPECIAL OFFER</text>
-  <text x="300" y="200" font-family="Arial" font-size="24" text-anchor="middle" fill="white">Group Travel Discount!</text>
-  <circle cx="200" cy="100" r="30" fill="white" opacity="0.2" />
-  <circle cx="400" cy="250" r="50" fill="white" opacity="0.2" />
-  <circle cx="100" cy="200" r="20" fill="white" opacity="0.2" />
-  <circle cx="500" cy="150" r="25" fill="white" opacity="0.2" />
-</svg>

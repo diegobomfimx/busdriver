@@ -1,9 +1,0 @@
-<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="300" fill="#27ae60" />
-  <text x="300" y="100" font-family="Arial" font-size="36" text-anchor="middle" fill="white">São Paulo</text>
-  <text x="300" y="200" font-family="Arial" font-size="36" text-anchor="middle" fill="white">Curitiba</text>
-  <line x1="150" y1="150" x2="450" y2="150" stroke="white" stroke-width="8" stroke-dasharray="12,8" />
-  <circle cx="150" cy="150" r="20" fill="white" />
-  <circle cx="450" cy="150" r="20" fill="white" />
-  <path d="M280,140 L320,140 L320,160 L280,160 Z" fill="white" />
-</svg>
