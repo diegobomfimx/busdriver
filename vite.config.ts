@@ -32,6 +32,7 @@ export default defineConfig({
   build: {
     outDir: path.resolve(__dirname, "docs"),
     emptyOutDir: true,
+    assetsDir: "assets", // Pasta dos assets
   },
   base: "/busdriver/",
 });

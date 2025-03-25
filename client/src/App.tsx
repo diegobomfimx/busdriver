@@ -1,13 +1,15 @@
-import { Switch, Route } from "wouter";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 
 function App() {
   return (
-    <Switch>
-      <Route path="/" component={Home} />
-      <Route component={NotFound} />
-    </Switch>
+    <Router basename="/busdriver"> {/*basename*/}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -344,7 +344,9 @@ var vite_config_default = defineConfig({
   root: path.resolve(__dirname, "client"),
   build: {
     outDir: path.resolve(__dirname, "docs"),
-    emptyOutDir: true
+    emptyOutDir: true,
+    assetsDir: "assets"
+    // Pasta dos assets
   },
   base: "/busdriver/"
 });
